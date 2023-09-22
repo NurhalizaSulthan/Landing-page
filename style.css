@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+}
+
+.header,
+.inform,
+.quote .image-subtext {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar,
+.hero,
+.sign-up,
+.image,
+.links {
+    display: flex;
+}
+
+header,
+footer {
+    background-color: #1f2937;
+}
+
+
+/* HEADER */
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 200px;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #E5E7EB;
+}
+
+.links {
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.links a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+
+.hero {
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+.hero-text {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: bold;
+    width: 120px;
+    height: 32px;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: 210px;
+    background-color: gray;
+    justify-items: center;
+    align-items: center;
+
+}
+
+/* INFORMASI */
+
+.inform h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.image {
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 0px 90px 0px;
+
+}
+
+
+.sub-image {
+    height: 165px;
+    border-radius: 10px;
+    border: solid blue 5px;
+    width: 165px;
+    object-fit: fill;
+}
+
+.image-subtext p {
+    width: 180px;
+    text-align: center;
+
+}
+
+
+/*QUOTE */
+
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 100px 300px;
+    gap: 32px;
+}
+
+.quote em {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote strong {
+    font-size: 24px;
+    align-self: flex-end;
+    /* Menggeser elemen <strong> ke kanan bawah */
+}
+
+
+
+
+/* SIGN UP */
+
+.sign-up {
+    display: flex;
+    margin: 8rem auto;
+    height: 8.75rem;
+    width: 62.5rem;
+    align-items: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+
+}
+
+.sign-up .container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sign-up .container strong {
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.sign-up .container p {
+    font-weight: 300;
+    font-size: 1.125rem;
+}
+
+.container button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: solid 3px #F9FAF8;
+    border-radius: 10px;
+    margin-left: 10rem;
+    width: 9rem;
+    height: 3rem;
+    font-size: 1.125rem;
+}
+
+
+/* FOOTER*/
+
+footer {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
